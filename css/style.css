@@ -1,0 +1,229 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card {
+        margin-bottom: 15px;
+        margin-top: 50px;
+        margin-left: 25%;
+        font-family: "Candara", sans-serif;
+        width: 700px;
+        overflow-x: hidden;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card -image img {
+        width: 60px;
+        height: 6px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        object-fit: cover;
+    }
+    
+    .profile-image img {
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        margin-top: -75px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100px;
+        border: 10px solid#fff;
+        transition-duration: 0.4s;
+        transition-property: transform;
+    }
+    
+    .profile-image img:hover {
+        transform: scale(1.1);
+    }
+    
+    .card-content h3 {
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .card-content p {
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 20px 5px 20px;
+    }
+    
+    header {
+        background-color: black;
+        display: flex;
+        width: 100%;
+        height: 6vh;
+        margin: auto;
+        align-items: center;
+        border-bottom: rgb(110, 108, 108) solid;
+        padding-bottom: 0px;
+    }
+    
+    .nav ul li {
+        width: 150px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .nav ul li:hover {
+        background-color: linear-gradient(#cc66ff, #f4f4f4);
+    }
+    
+    .logo-container,
+    .nav-links,
+    .cart {
+        display: flex;
+    }
+    
+    .logo-container {
+        flex: 1;
+    }
+    
+    nav {
+        flex: 2;
+    }
+    
+    h1 {
+        color: white;
+        margin-top: 3px;
+        margin-left: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .nav-links {
+        float: right;
+        list-style: none;
+    }
+    
+    .nav-link .ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .nav-link .ul li a:hover {
+        color: orange;
+    }
+    
+    .nav-link {
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    .nav-link a {
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .footer {
+        color: rgb(122, 121, 121);
+        padding: 40px 0;
+        background-color: #ffff;
+        border: 2px solid black;
+    }
+    
+    .footer .social {
+        text-align: center;
+        padding-bottom: 25px;
+        color: #4b4c4d;
+    }
+    
+    .footer .social a {
+        font-size: 24px;
+        color: inherit;
+        border: 1px solid#ccc;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 8px;
+        opacity: 0.75;
+    }
+    
+    .footer .social a:hover {
+        opacity: 0.9;
+    }
+    
+    .footer .social div {
+        padding-top: 5px;
+    }
+    
+    .footer h3 {
+        text-align: center;
+        padding-bottom: 2px;
+    }
+    
+    .adjust-img {
+        margin-top: 50px;
+        height: 700px;
+    }
+    
+    .container {
+        background-image: url(https://www.pinterest.com/pin/220254238013566116/);
+        margin-top: 20px;
+        margin-left: 15%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    
+    .container h1 {
+        display: flex;
+        float: center;
+        font-family: 'Courier New', Courier, monospace;
+        width: fit-content;
+        font-weight: bold;
+        padding: 5px;
+        color: white;
+        font-size: 30px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: black;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .card-hover {
+        cursor: pointer;
+    }
+    
+    .card-hover :hover {
+        color: rgb(124, 97, 87);
+        transform: translateY(20px);
+    }
+    
+    .spacing {
+        border-spacing: 20px;
+    }
+    
+    .footer-content {
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    .footer-content:hover {
+        color: black;
+    }
